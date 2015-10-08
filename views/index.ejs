@@ -1,0 +1,30 @@
+<%- include partials/header.ejs %>
+  <body>
+    <h1><%= title %></h1>
+    <p class='jumbotron'>Welcome to <%= message %></p>
+           <nav class="navbar navbar-inverse">
+            <ul class="nav navbar-nav">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Services</a></li>    
+            <li><a href="#">Contact me</a></li>
+            <li><a href="#">About me</a></li>
+            </ul>
+        </nav>
+        
+        <form>
+            <h1>Login form</h1>
+            <div class="form-group">
+            <label for="username" class="col-sm-2">Username :</label>
+            <input name="username" />
+                </div>
+            <div class="form-group">
+            <label for="password" class="col-sm-2">Password :</label>
+            <input name="password" />
+            </div>
+            <div class="col-sm-offset-2">
+            <input type="submit" value="Login" class="btn btn-lg btn-success"/>
+            </div>
+        </form>
+      <footer> akhilthakkar Copyright 2015</footer>
+  </body>
+</html>
